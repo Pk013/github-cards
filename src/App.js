@@ -3,7 +3,7 @@ import "./App.css";
 import { Button, Card, CardTitle, Container } from "react-materialize";
 import Typography from "@material-ui/core/Typography";
 import { CardContent } from "@material-ui/core";
-const githubProfile = "https://api.github.com/users/mpmckenz";
+const githubProfile = "https://api.github.com/users/Pk013";
 
 // const testArr = { numberone: 1, numbertwo: 2, numberthree: 3 };
 // console.log(Object.entries(testArr));
@@ -56,9 +56,7 @@ class App extends Component {
                   <b>Public repositories:</b> {this.state.user.public_repos}
                   <br />
                   <p>
-                    Kenzie Academy is pretty cool. I really like going here and{" "}
-                    <b>REALLY want to be a student coach</b> but keeping my
-                    grade up is really hard for me to do.{" "}
+                    Kenzie Academy is pretty cool. This place is great and I cant wait to see where it takes me.{" "}
                   </p>
                   <a href="https://epic-spinners.epicmax.co/#/">Moving Icons</a>
                   {/* </Typography> */}
